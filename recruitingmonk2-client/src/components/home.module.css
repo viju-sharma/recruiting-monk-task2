@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans');
+
+.group
+{
+    margin: 2rem auto;
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+    transition: all .15s;
+}
+.group:hover
+{
+    transform: scale(1.005);
+    box-shadow: 1px 1px 15px 0.5px rgb(189, 173, 173);
+}
+.questions
+{
+background-color: #f1f2ff;
+margin: 2px 0;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1rem 1rem 0;
+
+}
+.answerGroup{
+background-color: #fff;
+margin: 2px 0;
+margin-top: 0;
+border: 1px solid #fff;
+border-radius: 5px;
+padding: 1rem 1rem 0;
+padding-left: 3rem;
+
+}
+
+.que{
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Noto Sans Display',
+    sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    font-stretch: 100%;
+    margin: 1rem;
+}
+.desc
+{
+    color : #4e4444;
+    margin : 0;
+    font-family: 'Noto Sans Display',
+    sans-serif;
+    font-weight: 100;
+    margin : 1rem;
+
+}
+.ans
+{
+background-color: #fff;
+margin: 2px 2px;
+padding: 1rem 1rem 1rem 1rem;
+font-family: 'Fira Sans',
+sans-serif;
+font-weight: 200;
+color: #4e4444;
+/* padding-left: 4rem; */
+}
+
+
+.usernameDiv
+{
+    width: fit-content;
+    padding: 0 .5rem 0.2rem 0;
+    border : 2px solid;
+    border-top: none ;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #4e4444;
+    margin-left: 1rem;
+    display: inline-block;
+    transition:transform .3s;
+
+}
+
+.name{
+    display: inline;
+    font-size: 16px;
+    margin: 0 auto 5px;
+    padding-left: 5px;
+    position: relative;
+    bottom: 5px;
+    text-transform: capitalize;
+}
+.postTime
+{
+    float: right;
+
+}
+.postTime p
+{
+    display: inline-block;
+    position: relative;
+    bottom: 6px;
+    padding: 10px;
+    font-size: 12px ;
+}
+
+.usernameDiv:hover
+{
+    transform: scale(1.05);
+}
+
+hr{
+    border-width: 0.01px;
+}
